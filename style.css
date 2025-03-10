@@ -1,0 +1,133 @@
+body {
+margin:0 5%;
+}
+.page {
+    height: 100vh;
+  }
+  
+  /* Content */
+  .content-padding {
+    padding: 10px;
+  }
+  
+  .content-padding-top {
+    padding-top: 10px;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 5%;
+    background-color: #f0f2f5;;
+  
+    .menu-selected {
+      background-color: lightgray;
+      border-radius: 50%;
+      border-color: #f2f2f2;
+      padding: 7px;
+  
+      span {
+        color: #ffffff;
+        background-color: #25d366;
+      }
+  
+      i {
+        color: black !important;
+      }
+    }
+  }
+  
+  /* Chat List Section */
+  .chat-list {
+    width: 25%;
+    background-color: #ffffff;
+  
+    .badge {
+      background-color: #f0f2f5 !important;
+      color: #828e96 !important;
+      font-weight: normal !important;
+  
+      &.selected {
+        background-color: #e7fce3 !important;
+        color: #008069 !important;
+      }
+    }
+  }
+  
+  .chat {
+  margin-top: 15px;
+  
+    .last-msg {
+      max-width: 250px;
+      display: inline-block;
+    }
+  }
+  
+  /* Icon */
+  i {
+    color: #54656f !important;
+  }
+  
+  /* Message Section */
+  .message {
+    width: 70%;
+  
+    .header {
+      background-color:#f0f2f5;;
+    }
+  
+    .footer {
+      background-color:#f0f2f5;;
+    }
+  }
+  
+  /* Images */
+  .profile-img {
+    height: 55px;
+  }
+  
+  .archive-img {
+   height:30px;
+  }
+  .bottom-search{
+    background-color:#f0f2f5;;
+
+  }
+
+  .chat-container {
+  width: 100%;
+  margin: auto;
+  background-color: #efeae2; 
+  height: 85vh;
+  padding:5px 10px;
+}
+
+.chat-message {
+  max-width: 50%; 
+  word-wrap: break-word;
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  position: relative;
+  clear: both;
+}
+
+.received {
+  background-color: #fff;
+  float: left;
+  margin-left: 10px;
+}
+
+.sent {
+  background-color: #dcf8c6;
+  float: right;
+  margin-right: 10px;
+}
+
+.timestamp {
+  font-size: 10px;
+  color: gray;
+  margin-left: 8px;
+  position: absolute;
+  bottom: 1px;
+  right: 10px;
+}
